@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 480px){
+    #hero{
+        margin-bottom: 50px;
+        /* display: none; */
+        color: hsl(228, 16%, 32%);
+    }
+
+    .hero-img{
+        height: 70vh
+    }
+}
